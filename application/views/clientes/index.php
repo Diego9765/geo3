@@ -75,11 +75,11 @@
         <div class="row">
           <div class="col-md-4 text-center">
               <button type="submit" class="btn btn-primary">
-                &nbsp;&nbsp;&nbsp;Guardar&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;aceptar&nbsp;&nbsp;&nbsp;
               </button>
               &nbsp;&nbsp;&nbsp;
               <button type="reset" class="btn btn-danger">
-                &nbsp;&nbsp;&nbsp;Cancelar&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;DELIMITAR&nbsp;&nbsp;&nbsp;
               </button>
           </div>
         </div>
@@ -157,7 +157,7 @@
         var marcador=new google.maps.Marker({
           position:latitud_longitud,
           map:mapa,
-          title:"Seleccine la direccion",
+          title:"Seleccine la casa",
           draggable:true
         });
 
